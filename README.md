@@ -5,7 +5,7 @@ Scripts for calculating the individual polarities and the polarization index.
 ## Folders
 
 * src
-    * **labeling**: scripts to label tweets and users according to the selected hashtags.
+    * **labeling**: scripts to label users according to the selected hashtags and to generate the retweet networks.
     * **polarities**: scripts used to the calculate of individual polarities.
     * **polarization**: scripts to calculate the variables related to the polarization and the polarization index.
     * **utils**: some useful scripts that are used over the code.
