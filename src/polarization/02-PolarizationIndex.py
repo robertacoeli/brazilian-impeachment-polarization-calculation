@@ -3,7 +3,7 @@
 
     input: file containing the distribution of the individual polarities --> ex.: "DadosKDE_GranMensal.json" (google drive: https://drive.google.com/drive/folders/1LivGb9Nddbl2FByLqq6yPezBHxRzfBpT?usp=sharing)
 
-    output: 
+    output: csv and json files containing the polarization metrics for each month --> ex.: "Metricas_Polarizacao_GranMensal.json" and "Metricas_Polarizacao_GranMensal.csv" (google drive, same link above)
 '''
 
 from scipy.integrate import quad
