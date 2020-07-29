@@ -4,7 +4,7 @@ Generate retweet networks for the users in the database.
 input: file containing the set of tweets to be analyzed --> ex.: "/home/robertacoeli/Documents/Pesquisa/Databases/deputados_twitter.gz"
 
 output: file "retweet_net.txt", which contains all the existent connections between the user and the retweeted one.
---> Example of a line of the output file: userA;userA_Id;userB;userB_Id;date_of_tweet;tweet_id;cleaned_tweet
+--> Example of a line of the output file: userA;userA_Id;userB;userB_Id;date_of_tweet;tweet_id;cleaned_tweet (see "retweet_net.txt" on https://drive.google.com/drive/folders/1LivGb9Nddbl2FByLqq6yPezBHxRzfBpT?usp=sharing)
 
 '''
 

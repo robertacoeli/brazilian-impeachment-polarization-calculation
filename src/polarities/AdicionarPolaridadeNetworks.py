@@ -1,16 +1,26 @@
+''' 
+    Script to add the polarity data to the retweet networks for the users that were labeled by the hashtags
+'''
 import networkx as nx
 from datetime import datetime
 import os
 from bisect import bisect_left
 import json
 
+# output folder
 outfolder = "/home/robertacoeli/Documents/Pesquisa/Results/Twitter/Publico/Experimentos_Redes_Retweets_v2/" \
              "Arquivos_Redes/RedesRetweets_Atualizadas_Maio2018"
+
+# folder containing the .gml files (input)
 infolder = "/home/robertacoeli/Documents/Pesquisa/Results/Twitter/Publico/Experimentos_Redes_Retweets_v2/" \
            "Arquivos_Redes/RedesRetweets_Antigas"
+
+# folder 
 polarityFolder = "/home/robertacoeli/Documents/Pesquisa/Results/Twitter/" \
                  "Publico/Experimentos_Redes_Retweets_v2/PolaridadeUsuariosAmostra/AmostrasIguais/" \
                  "TweetsPublico2016_CentralHashtagsOnly_%s.json"
+
+# we only consider the "extreme" positions ("favoravel" and "contrario")
 polaridades = ["CONTRARIO", "FAVORAVEL"]
 
 polarityArray = dict()
