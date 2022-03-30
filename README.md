@@ -1,6 +1,9 @@
-# PolarizationCalc
+# Polarization Calculation
 
-Scripts for calculating the individual polarities and the polarization index.
+Scripts for calculating the individual polarities and the polarization index. The scripts included in this repository were used in the analyses that are described in the following article:
+Elite versus mass polarization on the Brazilian impeachment proceedings of 2016
+Authors: Roberta C. N. Moreira, Pedro O. S. Vaz-de-Melo, Gisele L. Pappa
+Published in: Social Network Analysis and Mining | Issue 1/2020 
 
 ## Folders
 
@@ -16,7 +19,6 @@ Scripts for calculating the individual polarities and the polarization index.
 ## Files
 
 For the most part of the scripts, the "main" function is located at the end of the file, i.e., after the methods and class definitions. It contains the inputs and outputs, as well as it calls the function that executes the task for the script.
-
 
 # Output Examples
 
