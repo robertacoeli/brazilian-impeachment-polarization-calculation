@@ -1,9 +1,10 @@
 # Polarization Calculation
 
 Scripts for calculating the individual polarities and the polarization index. The scripts included in this repository were used in the analyses that are described in the following article:
-Elite versus mass polarization on the Brazilian impeachment proceedings of 2016
-Authors: Roberta C. N. Moreira, Pedro O. S. Vaz-de-Melo, Gisele L. Pappa
-Published in: Social Network Analysis and Mining | Issue 1/2020 
+
+**Elite versus mass polarization on the Brazilian impeachment proceedings of 2016** <br/>
+**Authors**: Roberta C. N. Moreira, Pedro O. S. Vaz-de-Melo, Gisele L. Pappa <br/>
+**Published in**: Social Network Analysis and Mining | Issue 1/2020  <br/>
 
 ## Folders
 
